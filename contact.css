@@ -1,0 +1,91 @@
+body{
+	font-family:  sans-serif;
+	margin: 0;
+}
+.cf{
+	background: rgb(149, 165, 166) url('images/bg.jpeg') no-repeat center / 100% 100%;
+	overflow: hidden;
+}
+.cf form{
+	width: 40%;
+	margin: 70px auto;
+	background: rgba(52, 73, 94, 0.5);
+	overflow: hidden;
+	padding: 0 30px;
+	border-radius: 10px;
+}
+.cf h2{
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+	margin-bottom: 10px;
+	color: #fff;
+}
+.cf hr{
+	border: 0;
+	border-top: 2px solid rgb(241, 196, 15);
+	width: 100px;
+	margin-bottom: 30px;
+}
+.cf label{
+	display:block;
+	margin: 10px 0;
+	font-size: 18px;
+	color: rgb(189, 195, 199);
+}
+.cf input,
+.cf textarea{
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 15px;
+	padding: 5px;
+	font-family: sans-serif;
+	background: rgba(149, 165, 166, 0.7);
+	border: 1px solid rgb(149, 165, 166);
+	border-radius: 5px;
+	color: #fff;
+}
+.cf input:hover,
+.cf textarea:hover{
+	border: 1px solid rgb(243, 156, 18);
+	background:#fff;
+}
+.cf input:focus,
+.cf textarea:focus{
+	border: 1px solid rgb(241, 196, 15);
+	color: rgb(241, 196, 15);
+}
+.cf .one-half{
+	overflow: hidden;
+}
+.cf .one-half .half1{
+	width: 48%;
+	float: left;
+	margin-right: 4%;
+}
+.cf .one-half .half2{
+	width: 48%;
+	float: left;
+}
+.cf input[type="submit"]{
+	width: 20%;
+	margin: 30px auto;
+	display:block;
+	background: rgb(241, 196, 15);
+	border: 1px solid rgb(241, 196, 15);
+	border-radius: 0;
+	transition: 0.5s;
+	padding: 10px 0;
+}
+.cf input[type="submit"]:hover{
+	background: transparent;
+	color: rgb(241, 196, 15);
+	cursor: pointer;
+}
+.cf textarea{
+	height: 150px;
+}
+.cf span{
+	color: rgb(241, 196, 15);
+}

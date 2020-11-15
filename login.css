@@ -1,0 +1,75 @@
+body{
+	font-family:  sans-serif;
+	margin: 0;
+}
+.cf{
+	background: rgb(149, 165, 166) url('images/leptop2.jpg') no-repeat center / 100% 100%;
+	overflow: hidden;
+}
+.cf form{
+	width: 25%;
+	margin: 150px auto;
+	background: rgba(37, 41, 35, 0.5);
+	overflow: hidden;
+	padding: 0 30px;
+	border-radius: 10px;
+}
+.cf h2{
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+	margin-bottom: 10px;
+	color: #fff;
+}
+.cf hr{
+	border: 0;
+	border-top: 2px solid rgb(241, 196, 15);
+	width: 100px;
+	margin-bottom: 30px;
+}
+.cf label{
+	display:block;
+	margin: 10px 0;
+	font-size: 15px;
+	color: rgb(45, 239, 10);
+}
+.cf .one-half{
+	overflow: hidden;
+}
+
+.cf input{
+	width: 90%;
+	box-sizing: border-box;
+	font-size: 15px;
+	padding: 5px;
+	font-family: sans-serif;
+	background: rgba(149, 165, 166, 0.7);
+	border: 1px solid rgb(149, 165, 166);
+	border-radius: 5px;
+	color: #fff;
+}
+.cf input:hover{
+	border: 1px solid rgb(243, 156, 18);
+	background:#fff;
+}
+.cf input:focus{
+	border: 1px solid rgb(241, 196, 15);
+	color: rgb(241, 196, 15);
+}
+.cf input[type="submit"]{
+	width: 25%;
+	margin: 30px auto;
+	display:block;
+	background: rgb(241, 196, 15);
+	border: 1px solid rgb(241, 196, 15);
+	border-radius: 0;
+	transition: 0.5s;
+	padding: 10px 0;
+}
+.cf input[type="submit"]:hover{
+	background: transparent;
+	color: rgb(241, 196, 15);
+	cursor: pointer;
+}
+
